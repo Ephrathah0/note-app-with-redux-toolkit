@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(242, 255, 194);
+  color: #333;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 1.5rem;
+  padding: 0 10% 10%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+  margin-bottom: 1em;
+}
+
+main {
+  max-width: 500px;
+  margin: auto;
+}
+
+section {
+  margin-top: 1em;
+}
+
+article {
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid antiquewhite;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+ 
+  line-height: 1.4;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.btn{
+  background-color: rgb(236, 233, 47);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  text-decoration: none;
+  width: 25%;
+  padding: 10px;
+}
+
+.btn a{
+  text-decoration: none;
+}
